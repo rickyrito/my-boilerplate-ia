@@ -1,0 +1,28 @@
+# Ambiente e Chaves Secretas (NUNCA subir para o GitHub)
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Dependências e Pacotes Pesados
+node_modules/
+/dist
+/build
+.next/
+.nuxt/
+__pycache__/
+*.pyc
+.venv/
+venv/
+ENV/
+
+# Logs e Arquivos do Sistema
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários de Ferramentas de IA
+.claude/
